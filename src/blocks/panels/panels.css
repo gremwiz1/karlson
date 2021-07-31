@@ -1,0 +1,7 @@
+.panels {
+    display: flex;
+    flex-direction: column;
+    background: #86D3F4;
+    width: 380px;
+    height: 720px;
+}
