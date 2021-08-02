@@ -10,4 +10,7 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   display: flex;
+  background-image: url('../../images/malish.png');
+  background-size: cover;
+  background-position: center;
 }

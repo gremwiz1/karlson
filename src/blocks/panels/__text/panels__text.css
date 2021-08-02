@@ -1,0 +1,12 @@
+.panels__text {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  max-width: 337px;
+  margin: 0 auto 13px auto;
+  color: #000000;
+}

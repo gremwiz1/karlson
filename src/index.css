@@ -2,3 +2,16 @@
 @import url(./vendor/fonts.css);
 @import url(./blocks/page/page.css);
 @import url(./blocks/panels/panels.css);
+@import url(./blocks/right-panel/right-panel.css);
+@import url(./blocks/panels/__title/panels__title.css);
+@import url(./blocks/panels/__number-telephone/panels__number-telephone.css);
+@import url(./blocks/panels/__text/panels__text.css);
+@import url(./blocks/keyboard/keyboard.css);
+@import url(./blocks/panels/__agreement/panels__agreement.css);
+@import url(./blocks/checkbox/checkbox.css);
+@import url(./blocks/checkbox/checkbox_invisible.css);
+@import url(./blocks/checkbox/checkbox_visible.css);
+@import url(./blocks/checkbox/__text/checkbox__text.css);
+@import url(./blocks/panels/__button/panels__button.css);
+@import url(./blocks/keyboard/__button/keyboard__button.css);
+@import url(./blocks/keyboard/__button/_erase/keyboard__button_erase.css);

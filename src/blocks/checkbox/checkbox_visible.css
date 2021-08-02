@@ -1,0 +1,8 @@
+.checkbox_visible {
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    background: #86d3f4;
+    border: 2px solid #000000;
+    cursor: pointer;
+}

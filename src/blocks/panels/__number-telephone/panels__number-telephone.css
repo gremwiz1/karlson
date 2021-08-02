@@ -1,0 +1,15 @@
+.panels__number-telephone {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  max-width: 260px;
+  margin-left: 60px;
+  margin-bottom: 13px;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
