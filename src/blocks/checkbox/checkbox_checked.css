@@ -1,0 +1,5 @@
+.checkbox_checked {
+    background-image: url(../../images/check.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}

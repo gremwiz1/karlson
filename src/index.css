@@ -16,3 +16,4 @@
 @import url(./blocks/keyboard/__button/keyboard__button.css);
 @import url(./blocks/keyboard/__button/_erase/keyboard__button_erase.css);
 @import url(./blocks/keyboard/__button/_active/keyboard__button_active.css);
+@import url(./blocks/checkbox/checkbox_checked.css);
