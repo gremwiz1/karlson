@@ -1,27 +1,27 @@
 import React from 'react';
 import KeyboardTelephone from './KeyBoardTelephone';
+import PanelNumberTelephone from './PanelNumberTelephone';
 function Panels() {
+
     const [numberTelephone, SetNumberTelephone] = React.useState([]);
+
+
+    function pressKeyboardTelephone(number) {
+
+        SetNumberTelephone(prevState => {
+            return [...prevState, number]
+        })
+    }
+    function pressResetTelephoneNumber() {
+        SetNumberTelephone([]);
+    }
+
     return (
         <form className="panels">
             <h2 className="panels__title">Введите ваш номер мобильного телефона</h2>
-            <p className="panels__number-telephone">+7(
-                {numberTelephone[0] ? numberTelephone[0] : "_"}
-                {numberTelephone[1] ? numberTelephone[1] : "_"}
-                {numberTelephone[2] ? numberTelephone[2] : "_"}
-                )
-                {numberTelephone[3] ? numberTelephone[3] : "_"}
-                {numberTelephone[4] ? numberTelephone[4] : "_"}
-                {numberTelephone[5] ? numberTelephone[5] : "_"}
-                -
-                {numberTelephone[6] ? numberTelephone[6] : "_"}
-                {numberTelephone[7] ? numberTelephone[7] : "_"}
-                -
-                {numberTelephone[8] ? numberTelephone[8] : "_"}
-                {numberTelephone[9] ? numberTelephone[9] : "_"}
-            </p>
+            <PanelNumberTelephone numberTelephone={numberTelephone} />
             <p className="panels__text">и с Вами свяжется наш менеждер для дальнейшей консультации</p>
-            <KeyboardTelephone />
+            <KeyboardTelephone handleButton={pressKeyboardTelephone} handleResetNumberTelephone={pressResetTelephoneNumber} />
             <div className="panels__agreement">
                 <label className="checkbox">
                     <input type="checkbox" class="checkbox_invisible" id="1" name="checkbox" />
