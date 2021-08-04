@@ -20,3 +20,7 @@
 @import url(./blocks/panels/__response/panels__response.css);
 @import url(./blocks/panels/__invalid-text/panels__invalid-text.css);
 @import url(./blocks/panels/__number-telephone/panels__number-telephone_invalid.css);
+@import url(./blocks/button-close/button-close.css);
+@import url(./blocks/right-panel/__barcode/right-panel__barcode.css);
+@import url(./blocks/right-panel/__text/right-panel__text.css);
+@import url(./blocks/right-panel/__image/right-panel__image.css);

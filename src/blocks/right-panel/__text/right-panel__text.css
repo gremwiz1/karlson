@@ -1,0 +1,14 @@
+.right-panel__text {
+  margin: 0;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  max-width: 194px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-right: 10px;
+}

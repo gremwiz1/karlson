@@ -9,7 +9,7 @@ function Panels({ setValidNumberTelephone }) {
 
     React.useEffect(() => {
         validationForm();
-    }, [validationForm])
+    }, [isChecked, numberTelephone])
     function handleCheckBox() {
         const checkBoxElement = document.querySelector('.checkbox_invisible');
         checkBoxElement.checked = !isChecked;
