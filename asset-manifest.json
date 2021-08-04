@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/karlson/static/css/main.5037ad7d.chunk.css",
+    "main.js": "/karlson/static/js/main.c4e4ea98.chunk.js",
+    "main.js.map": "/karlson/static/js/main.c4e4ea98.chunk.js.map",
+    "runtime-main.js": "/karlson/static/js/runtime-main.71b67feb.js",
+    "runtime-main.js.map": "/karlson/static/js/runtime-main.71b67feb.js.map",
+    "static/js/2.9cff5543.chunk.js": "/karlson/static/js/2.9cff5543.chunk.js",
+    "static/js/2.9cff5543.chunk.js.map": "/karlson/static/js/2.9cff5543.chunk.js.map",
+    "static/js/3.0216db26.chunk.js": "/karlson/static/js/3.0216db26.chunk.js",
+    "static/js/3.0216db26.chunk.js.map": "/karlson/static/js/3.0216db26.chunk.js.map",
+    "index.html": "/karlson/index.html",
+    "static/css/main.5037ad7d.chunk.css.map": "/karlson/static/css/main.5037ad7d.chunk.css.map",
+    "static/js/2.9cff5543.chunk.js.LICENSE.txt": "/karlson/static/js/2.9cff5543.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/karlson/static/media/malish.2a71c88c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71b67feb.js",
+    "static/js/2.9cff5543.chunk.js",
+    "static/css/main.5037ad7d.chunk.css",
+    "static/js/main.c4e4ea98.chunk.js"
+  ]
+}
