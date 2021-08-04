@@ -1,7 +1,8 @@
 import React from 'react';
-function PanelNumberTelephone({ numberTelephone }) {
+function PanelNumberTelephone({ numberTelephone , isValidationTelephoneNumber}) {
+    
     return (
-        <p className="panels__number-telephone">+7(
+        <p className={isValidationTelephoneNumber ? "panels__number-telephone" : "panels__number-telephone panels__number-telephone_invalid"}>+7(
             {numberTelephone[0] ? numberTelephone[0] : "_"}
             {numberTelephone[1] ? numberTelephone[1] : "_"}
             {numberTelephone[2] ? numberTelephone[2] : "_"}

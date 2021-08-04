@@ -3,7 +3,6 @@ import React from "react";
 function KeyboardTelephone({ handleButton, handleResetNumberTelephone }) {
     function pressOnButton(evt) {
         var foo = document.querySelectorAll("button");
-
         for (var i = 0; i < foo.length; i++) {
             foo[i].classList.remove("keyboard__button_active");
         }

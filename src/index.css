@@ -17,3 +17,6 @@
 @import url(./blocks/keyboard/__button/_erase/keyboard__button_erase.css);
 @import url(./blocks/keyboard/__button/_active/keyboard__button_active.css);
 @import url(./blocks/checkbox/checkbox_checked.css);
+@import url(./blocks/panels/__response/panels__response.css);
+@import url(./blocks/panels/__invalid-text/panels__invalid-text.css);
+@import url(./blocks/panels/__number-telephone/panels__number-telephone_invalid.css);
