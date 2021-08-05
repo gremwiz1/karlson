@@ -16,7 +16,6 @@ function Panels({ setValidNumberTelephone }) {
         setIsChecked(!isChecked);
     }
     const pressKeyboardTelephone = (number) => {
-
         SetNumberTelephone(prevState => {
             return [...prevState, number]
         })
@@ -33,6 +32,8 @@ function Panels({ setValidNumberTelephone }) {
         }
         if (numberTelephone.length === 10 && isChecked) {
             buttonSubmit.removeAttribute('disabled');
+            const activeElement = document.querySelector('.keyboard__button_active');
+            activeElement.classList.remove('keyboard__button_active');
             buttonSubmit.classList.add('keyboard__button_active');
         }
     }
