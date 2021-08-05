@@ -1,17 +1,16 @@
-import React, { useState } from "react";
-import Panels from "./Panels";
-import RightPanel from "./RightPanel";
-import Leftpanel from "./Leftpanel";
+import React from "react";
+import FirstScreen from "./FirstScreen";
+import SecondScreen from "./SecondScreen";
 
 function App() {
-  const [isValidNumberTelephone, setIsValidNumberTelephone] = useState(false);
-  function setValidNumberTelephone(flag) {
-    setIsValidNumberTelephone(flag);
+
+  const [isClickOnBanner, setIsClickOnBanner] = React.useState(false);
+  const showSecondScreen = () => {
+    setIsClickOnBanner(true);
   }
   return (
     <div className="page">
-      {isValidNumberTelephone ? <Leftpanel /> : <Panels setValidNumberTelephone={setValidNumberTelephone} />}
-      <RightPanel />
+      {isClickOnBanner ? <SecondScreen /> : <FirstScreen showSecondScreen={showSecondScreen} />}
     </div>
   );
 }

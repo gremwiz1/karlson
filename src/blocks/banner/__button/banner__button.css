@@ -1,0 +1,20 @@
+.banner__button {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #86d3f4;
+  width: 156px;
+  height: 52px;
+  margin-top: 20px;
+  background: #000000;
+  border: none;
+  cursor: pointer;
+  transition: 1s;
+}
+.banner__button:hover {
+  opacity: 0.7;
+}

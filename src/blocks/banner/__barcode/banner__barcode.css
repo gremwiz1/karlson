@@ -1,0 +1,7 @@
+.banner__barcode {
+  width: 126px;
+  height: 126px;
+  background-image: url(../../../images/barcode-first.png);
+  background-position: center;
+  margin-top: 20px;
+}

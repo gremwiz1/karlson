@@ -9,23 +9,23 @@ function Panels({ setValidNumberTelephone }) {
 
     React.useEffect(() => {
         validationForm();
-    }, [isChecked, numberTelephone])
-    function handleCheckBox() {
+    }, [isChecked, numberTelephone]);
+    const handleCheckBox = () => {
         const checkBoxElement = document.querySelector('.checkbox_invisible');
         checkBoxElement.checked = !isChecked;
         setIsChecked(!isChecked);
     }
-    function pressKeyboardTelephone(number) {
+    const pressKeyboardTelephone = (number) => {
 
         SetNumberTelephone(prevState => {
             return [...prevState, number]
         })
     }
-    function pressResetTelephoneNumber() {
+    const pressResetTelephoneNumber = () => {
         SetNumberTelephone([]);
         setIsValidationTelephoneNumber(true);
     }
-    function validationForm() {
+    const validationForm = () => {
         const buttonSubmit = document.querySelector('.panels__button');
         buttonSubmit.setAttribute('disabled', true);
         if (buttonSubmit.classList.contains('keyboard__button_active')) {
@@ -36,7 +36,7 @@ function Panels({ setValidNumberTelephone }) {
             buttonSubmit.classList.add('keyboard__button_active');
         }
     }
-    function submitForm(evt) {
+    const submitForm = (evt) => {
         evt.preventDefault();
         const telephone = numberTelephone.join('');
         apiNumberTelephoneValidation(telephone)
@@ -48,7 +48,7 @@ function Panels({ setValidNumberTelephone }) {
                 console.log(err);
             })
     }
-    function apiNumberTelephoneValidation(telephone) {
+    const apiNumberTelephoneValidation = (telephone) => {
         return fetch(`http://apilayer.net/api/validate?access_key=40f9d88b9f643c2271948f1d9db131c2&number=
         ${telephone}&country_code=RU&format=1`)
             .then(res => {

@@ -24,3 +24,9 @@
 @import url(./blocks/right-panel/__barcode/right-panel__barcode.css);
 @import url(./blocks/right-panel/__text/right-panel__text.css);
 @import url(./blocks/right-panel/__image/right-panel__image.css);
+@import url(./blocks/banner/banner.css);
+@import url(./blocks/banner/__subtitle/banner__subtitle.css);
+@import url(./blocks/banner/__barcode/banner__barcode.css);
+@import url(./blocks/banner/__text/banner__text.css);
+@import url(./blocks/banner/__button/banner__button.css);
+@import url(./blocks/first-screen/first-screen.css);
